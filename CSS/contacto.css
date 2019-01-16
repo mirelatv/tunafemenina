@@ -1,0 +1,55 @@
+
+  .imageContacto{
+   background-image: url('./../assets/images/vidaestudiante.jpeg');
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 80vh;
+   display: flex;
+   flex-flow: row wrap;
+   justify-content: center
+  
+  }
+.opacity{
+  
+  text-align: center;
+  margin-top: 35vh;
+  width: 130vh;
+  height: 35vh;
+  background-color:#6c757d69;
+  color: white;
+  
+}
+.principalContainerContacto{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center
+}
+
+.principalTexto{
+  margin-top: 2rem;
+  font-size: 3rem;
+  letter-spacing: 0.4rem;
+  font-weight:bold;
+}
+.secundaryTexto{
+  font-size: 1rem;
+  letter-spacing: 0.2rem;
+  font-family:arial;
+  font-weight: bold;
+  
+}
+/* MAPS*/
+#map {
+  height: 60vh;  /* The height is 400 pixels */
+  width: 100vh;  /* The width is the width of the web page */
+ }
+
+.maps{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center
+  
+}
+
+  
+  

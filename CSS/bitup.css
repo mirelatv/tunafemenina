@@ -1,0 +1,385 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #333333;
+  background-image: url("https://gallery.mailchimp.com/918a55afcb7ff18e533d4b663/images/ea410f58-2a61-48cb-9d7e-56a3ae534462.png");
+  margin: 0;
+  padding: 0;
+}
+
+.contenedor {
+  color: #ffffff;
+  text-align: center;
+}
+
+.adorno1-1 {
+  position: absolute; 
+bottom: 0px;
+  z-index: -1;
+}
+
+.adorno1-1>img {
+  margin: 0;
+  position: absolute; 
+  bottom: 0px;
+  width: 150px;
+}
+
+.adorno1-2 {
+  position: absolute; 
+bottom: 0px;
+  right: 0px;
+  z-index: -1;
+}
+
+.adorno1-2>img {
+  margin: 0;
+  position: absolute; 
+  bottom: 0px;
+  right: 0px;
+  width: 150px;
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: "FlipH";
+}
+
+.adorno2-1 {
+  position: absolute; 
+  top: 0px;
+  right: 0;
+  z-index: -1;
+  width: 10px;
+}
+
+.adorno2-1>img {
+  margin: 0;
+  position: absolute; 
+  top: 0px;
+  right: 0;
+  width: 100px;
+}
+
+
+.adorno2-2 {
+  position: absolute; 
+  top: 0px;
+  z-index: -1;
+}
+
+.adorno2-2>img {
+  margin: 0;
+  position: absolute; 
+  top: 0px;
+  width: 100px;
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: "FlipH";  
+}
+
+.adorno3 {
+  text-align: center;
+  width: 100%;
+}
+
+.adorno3>img {
+  width: 200px;
+  display: inline-block;
+}
+
+.adorno4 {
+  text-align: center;
+  width: 100%;
+  margin-top: 10%;
+}
+
+.adorno4>img {
+  width: 70px;
+  display: inline-block;
+  border-radius: 50%;
+}
+
+.adorno4>p {
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+.ribbon {
+ width: 50%;
+ position: relative;
+ background: rgb(109, 26, 26);
+ color: #fff;
+ text-align: center;
+ padding: .3em 5px .4em 5px; 
+ margin: 0 auto;
+ box-shadow: 0px 0px 10px rgb(51, 11, 11);
+ font-family: 'Sansita', Sans-serif;
+}
+.ribbon:before, .ribbon:after {
+ content: "";
+ position: absolute;
+ display: block;
+ bottom: -.5em;
+ border: 1.0em solid rgb(109, 26, 26);/* editar altura del >_| |_<*/
+ z-index: -1;
+}
+.ribbon:before {
+ left: -2em;
+ border-right-width: 1.7em;
+ border-left-color: transparent;
+}
+.ribbon:after {
+ right: -2em;
+ border-left-width: 1.7em;
+ border-right-color: transparent;
+}
+.ribbon .ribbon-content:before, 
+.ribbon .ribbon-content:after {
+ content: "";
+ position: absolute;
+ display: block;
+ border-style: solid;
+ border-color: #961d1d transparent transparent transparent;
+ bottom: -.5em;
+}
+.ribbon .ribbon-content:before {
+ left: 0;
+ border-width: .5em 0 0 .7em;
+}
+.ribbon .ribbon-content:after {
+ right: 0;
+ border-width: .5em .7em 0 0;
+}
+
+.banner {
+  margin-bottom: 50px;
+}
+
+.p1 {
+  font-weight: normal;
+  font-size: 30px;
+  margin:0px;
+  
+}
+
+.p2 {
+  font-weight: normal;
+  font-size: 30px;
+  margin:0px;
+  text-transform: uppercase;  
+}
+
+.cartel {
+  background-image: url("https://thumbs.dreamstime.com/t/black-chalkboard-blackboard-texture-background-chalk-chalk-board-empty-blank-writing-chalk-traces-erased-80592987.jpg");
+  background-size: cover;
+  background-position: center; 
+  width: 109px;
+  height: 109px;
+  padding: 10px 0px 5px 0px;
+  text-align: center;
+  display: inline-block;
+  margin: 5px;
+  border-top: 7px solid #5a472f;
+  border-bottom: 7px solid #a98962;
+  border-left: 7px solid #826746;
+  border-right: 7px solid #826746;
+  border-radius: 5px;
+  box-shadow: 0px 4px 8px 3px rgba(0, 0, 0, 0.5);
+}
+
+.cartel>div{
+  font-size: 50px;
+  font-family: 'Chela One', sans serif;
+  animation: fade 3s;
+  line-height: 30px;
+  margin-top: 5px;
+}
+
+.cartel>div>h3 {
+  margin-top: 15px;
+  font-size: 20px;
+  font-weight: normal;
+/*  border-top: 1px solid #333333;
+	box-shadow: 0 -5px 15px -5px #000000;*/
+}
+
+.h3 {
+  bottom: 0;
+  margin: 0 auto ;
+}
+
+.dospuntos {
+  background: transparent;
+  padding: 0px;
+  text-align: center;
+  display: inline-block;
+  margin: 5px;
+  vertical-align: top;
+  margin-top: 15px;
+  color: #ffffff;
+  text-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.dospuntos>p{
+  font-size: 50px;
+  font-family: 'Chela One', sans serif;
+  animation: fade 3s;
+}
+
+.desaparecer {
+  display: inline-block
+}
+
+@media (max-width: 668px) {
+  .desaparecer {
+    display: none;
+  }
+  
+  .adorno4{
+    margin-top: 15px;
+  }
+  
+  .p1{
+    font-size: 20px;
+  }
+}
+
+.contenedor {
+  margin-top: 3%;
+}
+
+.contenido {
+  width: 80%;
+  margin: 0 auto;
+  border: 0px solid black;
+  z-index: 10;
+}
+
+li {
+  display: inline-block;
+  list-style-type: none;
+  padding: 1em;
+ 
+}
+
+li span {
+  display: block;
+  
+}
+
+.numeros {
+  font-family: 'Chela one', sans-serif;
+  font-size: 60px;
+  transition: .3s;
+  animation-name: fade;
+  animation-duration: 3s;
+}
+
+.responsivo1 {
+  display: inline-block
+}
+
+.responsivo2 {
+  display: inline-block
+}
+
+@media (max-width: 300px) {  
+  .desaparecer2 {
+    display: none
+  }
+}
+
+@media (max-width: 450px) {  
+  .adorno1-1 {
+    display: none
+  }
+  .adorno1-2 {
+    display: none
+  }  
+  
+  .p1 {
+    font-size: 15px;
+    text-transform: uppercase;
+    margin:0px;
+  }  
+  .p2 {
+    font-weight: normal;
+    font-size: 25px;
+    margin:0px;
+    text-transform: uppercase;  
+  }  
+  .ribbon {
+  width: 70%; 
+  }
+  
+  .contenedor {
+    margin-top: 15%;
+  }
+  
+  .adorno2-1>img {
+    width: 80px;
+  }
+  .adorno2-2>img {
+    width: 80px;
+  }  
+  .banner {
+   margin-bottom: 30px; 
+  }
+  .cartel {
+    height: 99px;
+    width: 99px;
+  }
+  .cartel>div{
+    font-size: 45px;
+  }
+  .cartel>div>h3 {
+    font-size: 15px;
+    margin-top: 0px;
+  }
+  
+  .adorno3>img {
+    width: 150px;
+    display: inline-block;
+  }
+    .adorno4 {
+    text-align: center;
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .adorno4>img {
+    width: 70px;
+    display: inline-block;
+  }
+
+  .adorno4>p {
+    font-family: sans-serif;
+    font-size: 11px;
+  }
+}
+
+@keyframes fade {
+    0%   {
+      opacity: 0;
+  }
+    30%   {
+      opacity: 0;
+  }  
+    100% {
+      opacity: 1;
+  }
+}
+.lineaFinal{
+  width: 20vh;
+  height: 10vh;
+  
+}

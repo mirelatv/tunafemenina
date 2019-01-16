@@ -1,0 +1,271 @@
+/*SEGUNDO HTML LIFE */
+
+body{
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+	text-align: justify;
+	margin: 0%;
+	padding: 0%;
+}
+
+
+header {
+  background-color: black
+}
+
+.rounded {
+  width: 7%;
+}
+
+ ul li{
+   padding-bottom: 3vh;
+   
+ }
+.btn-outline-warning{
+	border: 1px solid rgb(240, 220, 108);
+
+}
+.btn-outline-warning:hover{
+	border:1px solid rgb(235, 229, 199) ;
+	background-color: transparent !important;
+
+}
+
+
+li a{
+  color: white; 
+ }
+
+ul li  a:hover {
+  color: #d79f7f;
+}
+.linkActive{
+  color: #d79f7f;
+}
+.linkActive:hover{
+  color:white;
+}
+
+.granate{
+
+  background: rgb(109, 26, 26);
+}
+
+.dropdown-menu{
+	background-color:black;
+	
+}
+.dropdown-item{
+	color: white;
+}
+/* CAROUSEL*/
+.carousel{
+	top:10vh;
+
+}
+
+.foto3{
+	height: 520px;
+}
+
+
+.life{
+	background-color: rgb(235, 229, 229);
+}
+
+/*motivacion*/
+
+/* videos*/
+
+.containervideotestimony{
+	margin-top:30vh;
+	background-color: white;
+	height: 100vh;
+}
+.videoConvocatoria{
+	width: inherit;
+	margin: 20px auto;
+}
+.textExperience{
+  text-align: justify;
+  padding: 2rem;
+}
+
+/*noticias*/
+.news{
+  margin-top:30vh;
+	margin-left:11vh;
+	background-color:white;
+	border: 2px solid white;
+}
+
+@media (max-width:800px) { 
+	
+.containervideotestimony{
+	margin-top:35vh;
+	background-color: white;
+	height: 150vh;
+}
+.galeria {
+	position: relative;
+	width: 100%; /* Ancho a ocupar por la galería sobre el total disponible */
+	overflow: hidden;
+	margin: 20px auto;
+	background-color: #000;
+	box-shadow: 1px 1px 6px #000;
+	}
+
+ }
+
+ /*life**/
+ /*Integrantes*/
+ .container {
+  width: 80%;
+  margin: 40px auto;
+  display: grid;
+  grid-gap: 20px;
+	grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+	font-family: 'Roboto', sans-serif;
+	
+
+}
+.titleAhijadas{
+  color:rgb(109, 26, 26);
+	letter-spacing: 0.5rem;
+}
+.box img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+.box {
+  position: relative;
+}
+.box::after,
+.box::before {
+  content: "";
+  position: absolute;
+  opacity: 1;
+  transition: all 0.4s ease-out;
+  top: 1rem;
+  bottom: 1rem;
+  left: 1rem;
+  right: 1rem;
+}
+.box::before {
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+  transform: scale(0, 1);
+}
+.box::after {
+  border-left: 2px solid white;
+  border-right: 2px solid white;
+  transform: scale(1, 0);
+}
+.box:hover::before {
+  background: rgba(0, 0, 0, 1);
+  transform: scale(1.05, 1);
+}
+.box:hover::after {
+  transform: scale(1, 1.05);
+}
+.box .content {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 15px;
+  color: white;
+	opacity: 0;
+	
+}
+.box:hover .content {
+  opacity: 1;
+}
+.box .content h2,
+.box .content p {
+  padding: 10px;
+	font-size: 1rem;
+	letter-spacing: 0.2rem;
+}
+.box:hover img {
+  opacity: 0.4;
+}
+/*FIN DE INTEGRANTES*/
+/*REDES SOCIALES*/
+
+.icono a {
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.contenedor-redes-sociales {
+
+	width: 50px;
+	right:  0;
+	position: fixed;
+	top: 50vh;
+	margin-left: 5px;
+}
+
+.icono {
+	top: 50%;
+	position: relative;
+	margin-bottom: 10px;
+}
+
+.icono-primary {
+	display: inline-block;
+	text-decoration: none;
+	color: #fff;
+	background: #3b5998;
+	border-radius: 50%;
+	position: relative;
+	z-index: 1;
+	height: 40px;
+	width: 40px;
+	text-align: center;
+	line-height: 40px;
+
+	-webkit-box-shadow: 1px 0 1px rgba(0,0,0,0.5);
+	box-shadow: 1px 0 1px rgba(0,0,0,0.5);
+}
+
+/* fin de  redes sociales*/
+
+/* footer*/
+
+.footer{
+  background-image: url("../assets/images/footer.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+	height: inherit;
+	
+  
+}
+
+.logo{
+	margin: 5vh 10vh;
+	border-radius: 50%;
+	width: 130%;
+
+		
+}
+
+.FooterContacto {
+	color: #fff;
+	text-align: center;
+	margin-top: 20%;
+	font-size: 4vh;
+}
+.FooterContacto a{
+	color:white;
+	letter-spacing: 0.8rem;
+}
+/* fin de footer*/
